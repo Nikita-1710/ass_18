@@ -10,7 +10,8 @@
 
 .ad-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin: 10px 0 50px 0;
 }
 
 .ad-box{
@@ -19,12 +20,16 @@
     width: 250px;
     padding: 15px;
     margin: 20px;
-    border: #3da9fc solid 1.5px;
-
+    border: #3da9fc solid 2px;
+    border-radius: 20px 30px;
+    box-shadow: 10px 10px 20px 2px gray;
 }
 
 .ad-box:hover{
     border-radius: 25px;
+    border: #3da9fc solid 5px;
+    box-shadow: 10px 10px 10px 3px gray;
+    transition: 0.5s;
 }
 
 .ad-card{
@@ -32,8 +37,67 @@
     width: 220px;
     display: block;
     margin: 10px auto;
+    border-radius: 25px;
 }
 
-.ad-card:hover{
+.logo{
+    display: block;
+    margin: 10px auto 20px auto;
+    box-shadow: 5px 5px 25px 5px black;
+}
+
+.logo-img{
+    height: 100px;
+    width: 300px;
+    border: 3px solid #f5f7f9;
+}
+
+.card-align{
+    display: flex;
+    margin: 15px;
+    justify-content: space-evenly;
+}
+
+.cards{
+    background-color: #90b4ce;
+    height: 350px;
+    width: 250px;
+    padding: 10px 10px 0 10px;
+    border: #3da9fc solid 2px;
+    border-radius: 20px 30px;
+    margin: 10px;
+}
+
+.cards:hover{
     border-radius: 25px;
+    border: #3da9fc solid 5px;
+    box-shadow: 10px 10px 10px 3px gray;
+    transition: 0.5s;
+}
+
+.item{
+    height: 250px;
+    border-radius: 20px 30px;
+}
+
+p{
+    font-size: 23px;
+    text-align: justify;
+}
+
+.btn{
+    height: 30px;
+    width: 90px;
+    background-color: #3da9fc;
+    border: #6246ea 2px solid;
+    border-radius: 40px;
+    display: block;
+    margin: 0 0 0 150px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #6246ea;
+    border: #3da9fc 3px solid;
+    border-radius: 40px;
 }
