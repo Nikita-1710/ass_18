@@ -42,7 +42,7 @@
 
 .logo{
     display: block;
-    margin: 10px auto 20px auto;
+    margin: 100px auto 20px auto;
     box-shadow: 5px 5px 25px 5px black;
 }
 
@@ -100,4 +100,9 @@ p{
     background-color: #6246ea;
     border: #3da9fc 3px solid;
     border-radius: 40px;
+    transition: 1s;
+}
+
+.company{
+    margin: 30px;
 }
