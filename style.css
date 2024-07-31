@@ -106,3 +106,19 @@ p{
 .company{
     margin: 30px;
 }
+
+.back-to-home{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: white solid 1.5px;
+}
+
+.back-to-home:hover{
+    background-color:  #3da9fc;
+    transition: 1.5s;
+    border-radius: 50px;
+    cursor: pointer;
+}
