@@ -1,0 +1,39 @@
+.banner{
+    background-color: #fffffe;
+}
+
+.main-heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Kalnia Glaze';
+}
+
+.ad-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad-box{
+    background-color: #90b4ce;
+    height: 150px;
+    width: 250px;
+    padding: 15px;
+    margin: 20px;
+    border: #3da9fc solid 1.5px;
+
+}
+
+.ad-box:hover{
+    border-radius: 25px;
+}
+
+.ad-card{
+    height: 120px;
+    width: 220px;
+    display: block;
+    margin: 10px auto;
+}
+
+.ad-card:hover{
+    border-radius: 25px;
+}
